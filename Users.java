@@ -1,6 +1,11 @@
 public class User
 {
     private String fullName;
-    List<Product> cart;
+    List<Products> cart;
     List<Order> orders;
+
+    public void addProduct(Products product)
+    {
+        cart.add(product);
+    }
 }
